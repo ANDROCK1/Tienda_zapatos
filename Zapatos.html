@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Zapatos</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a class="logo" href="#">Tienda Zapatos</a>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#productos">Productos</a></li>
+                    <li><a href="#caracteristicas">Caracteristicas</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <h1>Bienvenido a Tienda Zapatos</h1>
+            <p>Encuentra los mejores zapatos para cada ocasion.</p>
+        </section>
+
+        <section id="productos">
+            <h2>Productos</h2>
+            <div class="card">
+                <h3>Zapato Deportivo</h3>
+                <p>Los mejores zapatos deportivos.</p>
+                <button>Ver mas</button>
+            </div>
+            <div class="card">
+                <h3>Zapato Casual</h3>
+                <p>Los mejores zapatos casuales.</p>
+                <button>Ver mas</button>
+            </div>
+            <div class="card">
+                <h3>Zapato Formal</h3>
+                <p>Los mejores zapatos formales.</p>
+                <button>Ver mas</button>
+            </div>
+        </section>
+
+        <section id="caracteristicas">
+            <h2>Caracteristicas</h2>
+            <p>Nuestros zapatos estan diseñados para ofrecer comodidad y estilo.</p>
+            <ul>
+                <li>Materiales de alta calidad</li>
+                <li>Diseños modernos</li>
+                <li>Variedad de tallas y colores</li>
+            </ul>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Si tienes alguna pregunta, no dudes en contactarnos.</p>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" placeholder="nombre" name="nombre" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="email" name="email" required>
+                
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" placeholder="mensaje" name="mensaje" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p> 2025 Shop Zapatos. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
