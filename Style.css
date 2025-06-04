@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #75cac7; /* Azul vibrante */
+    --primary-color: #8da7a6; /* Azul vibrante */
     --secondary-color: #60a5fa; /* Azul más claro */
     --accent-color: #f87171; /* Rojo suave para acentos */
     --text-color: #333;
@@ -36,7 +36,7 @@ body {
 
 header {
     background-color: var(--primary-color);
-    color: white;
+    color: rgb(221, 205, 205);
     padding: 1.2rem 0;
     box-shadow: var(--shadow-medium);
     position: sticky;
